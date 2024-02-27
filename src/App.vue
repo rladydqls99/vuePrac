@@ -2,11 +2,15 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/databinding">Data Binding</router-link> | 
+    <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/databindingAttr">databindingAttr</router-link> |
-    <router-link to="/databindingList">databindingAttr</router-link>
+    <router-link to="/databindingList">databindingAttr</router-link> |
+    <router-link to="/eventClick">EventClick</router-link> |
+    <router-link to="/eventChange">EventChange</router-link> |
+    <router-link to="/computedAndWatch">computedAndWatch</router-link> |
+    <router-link to="/dataBindingList2">dataBindingList2</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
