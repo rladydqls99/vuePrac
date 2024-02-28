@@ -7,6 +7,8 @@ import EventClick from "../views/EventClick.vue";
 import EventChange from "../views/EventChange.vue";
 import ComputeAndWatch from "../views/ComputeAndWatch";
 import DataBindingList2 from "../views/DataBindingList2";
+import NestedComponent from "../views/NestedComponent";
+import ParentComponent from "../views/ParentComponent";
 
 const routes = [
   {
@@ -57,6 +59,16 @@ const routes = [
     path: "/dataBindingList2",
     name: "dataBindingList2",
     component: DataBindingList2,
+  },
+  {
+    path: "/nestedComponent",
+    name: "nestedComponent",
+    component: NestedComponent,
+  },
+  {
+    path: "/parentComponent",
+    name: "parentComponent",
+    component: ParentComponent,
   },
 ];
 

@@ -8,7 +8,9 @@
     <router-link to="/eventClick">EventClick</router-link> |
     <router-link to="/eventChange">EventChange</router-link> |
     <router-link to="/computedAndWatch">computedAndWatch</router-link> |
-    <router-link to="/dataBindingList2">dataBindingList2</router-link>
+    <router-link to="/dataBindingList2">dataBindingList2</router-link> |
+    <router-link to="/nestedComponent">nestedComponent</router-link> |
+    <router-link to="/parentComponent">parentComponent</router-link> |
   </nav>
   <router-view />
 </template>
