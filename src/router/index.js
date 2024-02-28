@@ -9,6 +9,9 @@ import ComputeAndWatch from "../views/ComputeAndWatch";
 import DataBindingList2 from "../views/DataBindingList2";
 import NestedComponent from "../views/NestedComponent";
 import ParentComponent from "../views/ParentComponent";
+import ProvideInject from "../views/ProvideInject";
+import MixinsAbc from "../views/MixinsAbc";
+import StoreAccess from "../views/StoreAccess";
 
 const routes = [
   {
@@ -69,6 +72,21 @@ const routes = [
     path: "/parentComponent",
     name: "parentComponent",
     component: ParentComponent,
+  },
+  {
+    path: "/mixinsAbc",
+    name: "mixinsAbc",
+    component: MixinsAbc,
+  },
+  {
+    path: "/provideInject",
+    name: "provideInject",
+    component: ProvideInject,
+  },
+  {
+    path: "/storeAccess",
+    name: "storeAccess",
+    component: StoreAccess,
   },
 ];
 

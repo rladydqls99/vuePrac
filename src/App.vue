@@ -11,6 +11,9 @@
     <router-link to="/dataBindingList2">dataBindingList2</router-link> |
     <router-link to="/nestedComponent">nestedComponent</router-link> |
     <router-link to="/parentComponent">parentComponent</router-link> |
+    <router-link to="/provideInject">provideInject</router-link> |
+    <router-link to="/mixinsAbc">mixinsAbc</router-link> |
+    <router-link to="/storeAccess">storeAccess</router-link> |
   </nav>
   <router-view />
 </template>

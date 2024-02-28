@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input v-model="title" />
+    <input v-model="title" v-focus />
     <PageTitle :title="title" />
   </div>
 </template>
@@ -14,6 +14,14 @@ export default {
     return {
       title: "a",
     };
+  },
+
+  directives: {
+    focus: {
+      mounted(el) {
+        el.focus();
+      },
+    },
   },
 };
 </script>
